@@ -1,0 +1,8 @@
+{
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 90000,
+    "testFiles": "**/*.feature",
+	   "browser": "chrome",
+	   "pluginsFile": "tests/e2e/plugins/index.js"
+
+  }

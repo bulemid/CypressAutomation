@@ -1,0 +1,22 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "Test Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "Dennis Bulemi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.5.0",
+    "e2e": "0.0.8"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
